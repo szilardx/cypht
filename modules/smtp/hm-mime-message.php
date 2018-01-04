@@ -115,9 +115,9 @@ class Hm_MIME_Msg {
     }
 
     function quote_fld($val) {
-        if (!preg_match("/^[a-zA-Z0-9 !#$%&'\*\+\-\/\=\?\^_`\{\|\}]+$/", $val)) {
-            return sprintf('"%s"', $val);
-        }
+        //if (!preg_match("/^[a-zA-Z0-9 !#$%&'\*\+\-\/\=\?\^_`\{\|\}]+$/", $val)) {
+        //    return sprintf('"%s"', $val);
+        //}
         return $val;
     }
 
